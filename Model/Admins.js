@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+
 const Admins = new mongoose.Schema({
     user_id: { type: String },
     password: { type: String },
